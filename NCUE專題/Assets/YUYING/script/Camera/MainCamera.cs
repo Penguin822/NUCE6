@@ -7,12 +7,15 @@ using System.Security.AccessControl;
 using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.Animations;
+using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 
 public class MainCamera : MonoBehaviour
 {
     private string path;
     public Camera ARCam;
+    static public int lastVisibleFlagID = -1; // 用于記錄最后一個可見旗子的 FlagID
 
+    /*
     public void OnScreenShootClick()
     {
         if (DogFlagInScreen.inScreen == false && CatFlagInScreen.inScreen == false && BirdFlagInScreen.inScreen == false) //沒照到旗子
@@ -33,6 +36,31 @@ public class MainCamera : MonoBehaviour
             {
                 SceneManager.LoadScene("B_game");
             }
+        }
+    }*/
+
+    public void OnScreenShootClick()
+    {
+        FlagInScreen[] allFlags = FindObjectsOfType<FlagInScreen>(); // 獲取場景中所有 FlagInScreen 腳本的物體
+
+        bool anyFlagInScreen = false;
+
+        foreach (FlagInScreen flag in allFlags)
+        {
+            if (flag.inScreen)
+            {
+                anyFlagInScreen = true;
+                lastVisibleFlagID = flag.FlagID; // 更新最后一?可見旗子的 FlagID
+            }
+        }
+
+        if (!anyFlagInScreen) // 如果?有旗子在屏幕上
+        {
+            ScreenShoot(ARCam);
+        }
+        else // 如果有旗子在屏幕上
+        {
+            SceneManager.LoadScene("ChoosePetGame");
         }
     }
 
