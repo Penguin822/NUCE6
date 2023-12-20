@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 12170 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/stepbystep/NUCE6/NCUE專題
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65191
+Successfully changed project path to: D:/stepbystep/NUCE6/NCUE專題
+D:/stepbystep/NUCE6/NCUE專題
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32280] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1131877902 [EditorId] 1131877902 [Version] 1048832 [Id] WindowsEditor(7,tsenghome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32280] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1131877902 [EditorId] 1131877902 [Version] 1048832 [Id] WindowsEditor(7,tsenghome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 109.53 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/stepbystep/NUCE6/NCUE專題/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008391 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.39 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (541ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.033936 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.54 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1849ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1497ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (960ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (773ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2934 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 151 unused Assets / (43.9 KB). Loaded Objects now: 3319.
+Memory consumption went from 201.2 MB to 201.2 MB.
+Total: 3.663200 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.170100 ms MarkObjects: 3.059600 ms  DeleteObjects: 0.169200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 481480.245031 seconds.
+  path: Assets/YILING/Scrpit_ui
+  artifactKey: Guid(c7aa92a417731ee4fa10e99cc583c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/Scrpit_ui using Guid(c7aa92a417731ee4fa10e99cc583c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae10eaf2de39ed22497b475e86bae842') in 0.010494 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.116648 seconds.
+  path: Assets/YILING/Scenes_ui/1_Home.unity
+  artifactKey: Guid(0559d24e96bc3f54792a6a4900191c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/Scenes_ui/1_Home.unity using Guid(0559d24e96bc3f54792a6a4900191c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e2fd0baf857023cb5b693d116e8467') in 0.003601 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.143337 seconds.
+  path: Assets/YILING/UI
+  artifactKey: Guid(ab8292f7e0880a845b43b5264239f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI using Guid(ab8292f7e0880a845b43b5264239f66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f4f4a3b1e110243fc082b1adcf91b9') in 0.002415 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.918138 seconds.
+  path: Assets/YILING/UI/uiicon
+  artifactKey: Guid(ddacf5eae844b4a419e7e56d4ff8700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon using Guid(ddacf5eae844b4a419e7e56d4ff8700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1bda6f5e7cfa1094f569a42710345e') in 0.001854 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082080 seconds.
+  path: Assets/YILING/UI/uiicon/Ellipse 1.png
+  artifactKey: Guid(8cbc7d33f5bda464a97c4457e2cb4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/Ellipse 1.png using Guid(8cbc7d33f5bda464a97c4457e2cb4622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8477da1fc77eb2aea962ffb68d0060f6') in 0.417045 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/YILING/UI/uiicon/Ellipse 8.png
+  artifactKey: Guid(38e346fe35bef5144bfdc9b29646f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/Ellipse 8.png using Guid(38e346fe35bef5144bfdc9b29646f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3c71e8e2cfd015836c6daa7f426f87') in 0.047873 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/YILING/UI/uiicon/地圖_點選.png
+  artifactKey: Guid(7ba2ad6d619ac96408bdb0f4207ee5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/地圖_點選.png using Guid(7ba2ad6d619ac96408bdb0f4207ee5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b129e80222e153d02a5094cf047b2d5c') in 0.064184 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/YILING/UI/uiicon/相機_默認.png
+  artifactKey: Guid(3342c2b6092e222478e0b119c7981b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/相機_默認.png using Guid(3342c2b6092e222478e0b119c7981b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b5e243f25e8d091c98c2d4637fa0b') in 0.052573 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YILING/UI/uiicon/個人檔案_默認.png
+  artifactKey: Guid(8da2396b294afd54eb0ea93081d1ce5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/個人檔案_默認.png using Guid(8da2396b294afd54eb0ea93081d1ce5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdf2b6299a234be3d8212f32f4827c0') in 0.057940 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001204 seconds.
+  path: Assets/YILING/UI/uiicon/Union.png
+  artifactKey: Guid(dfd7c1f161172ae48a7e7fb28e662d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/Union.png using Guid(dfd7c1f161172ae48a7e7fb28e662d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f59c70fa2677d1a40123335c0164727') in 0.078314 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/YILING/UI/uiicon/聊天_默認.png
+  artifactKey: Guid(04733a9b233877842bfaedf1fe752105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/uiicon/聊天_默認.png using Guid(04733a9b233877842bfaedf1fe752105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e70894f1c6f66eee080284cd112394') in 0.059240 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.336511 seconds.
+  path: Assets/TZYU/TextMesh Pro2/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TZYU/TextMesh Pro2/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bd709abaca415c72f16bab2f7c8abb') in 0.130805 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.769703 seconds.
+  path: Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT.TTF
+  artifactKey: Guid(5000f030c0ca86745beac37eb6b207cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TZYU/Fronts/INTER-VARIABLEFONT_SLNT,WGHT.TTF using Guid(5000f030c0ca86745beac37eb6b207cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2833448b36faed0ae25fd6f7e134c2fb') in 0.033120 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF
+  artifactKey: Guid(e2152b92ea8975245aa047ab719cfe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF using Guid(e2152b92ea8975245aa047ab719cfe5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7a72f49f0fb656d8777a9e9663e2e4') in 0.035521 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TZYU/Fronts_/INTER-VARIABLEFONT_SLNT,WGHT 3.TTF
+  artifactKey: Guid(e07a4de59cfcfaa4fb6baebdeda594d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TZYU/Fronts_/INTER-VARIABLEFONT_SLNT,WGHT 3.TTF using Guid(e07a4de59cfcfaa4fb6baebdeda594d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9461c0558f26448e05d8459490dbf') in 0.026826 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YICHIUN/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF
+  artifactKey: Guid(db5d9f57ab04e284da723209f15c8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YICHIUN/Fronts/INTER-VARIABLEFONT_SLNT,WGHT 2.TTF using Guid(db5d9f57ab04e284da723209f15c8b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c99a1b7b735fe850b6968111ce27398') in 0.022366 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 137.458439 seconds.
+  path: Assets/YILING/UI/1_Home/個人檔案.png
+  artifactKey: Guid(aa70cc32a3a93484bbdd1a4ccc3ccb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/1_Home/個人檔案.png using Guid(aa70cc32a3a93484bbdd1a4ccc3ccb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aebdaf9035804ddae9030758d700bb') in 0.071336 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YILING/UI/1_Home/相機.png
+  artifactKey: Guid(365a3486454724642974273282c7ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/1_Home/相機.png using Guid(365a3486454724642974273282c7ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e011a19e6053b444608c98ddf51677') in 0.061404 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/YILING/UI/1_Home/社群.png
+  artifactKey: Guid(f5e9067ec98417448ab9bd664f8eea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/1_Home/社群.png using Guid(f5e9067ec98417448ab9bd664f8eea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51edd09f31960169295e8ecf8096e52') in 0.057322 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YILING/UI/1_Home/首頁.png
+  artifactKey: Guid(edb32bfadf25e784e93322d71989dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/1_Home/首頁.png using Guid(edb32bfadf25e784e93322d71989dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849e5e87621bfa8740327332e2f445c8') in 0.067268 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.571659 seconds.
+  path: Assets/YILING/UI/2_Community/S__3334151 1.png
+  artifactKey: Guid(d6799f2fe3e42db40a097940d4c9035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/2_Community/S__3334151 1.png using Guid(d6799f2fe3e42db40a097940d4c9035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577cbec396100da16406cbdad45975d5') in 0.517408 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/YILING/UI/2_Community/相機.png
+  artifactKey: Guid(1ee5a8417e7d2584b9c58810f433a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/2_Community/相機.png using Guid(1ee5a8417e7d2584b9c58810f433a05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081d199d2a0145658e68a6c7af535a65') in 0.041243 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/YILING/UI/2_Community/社群-1.png
+  artifactKey: Guid(c9dff9eaa1d364f4d9c90cf1d3f557c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/2_Community/社群-1.png using Guid(c9dff9eaa1d364f4d9c90cf1d3f557c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e5613908dc050e3f0b14db098d69e3') in 0.046154 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/YILING/UI/2_Community/內文.png
+  artifactKey: Guid(475679302bdfe014ca44d74c6c92e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/2_Community/內文.png using Guid(475679302bdfe014ca44d74c6c92e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ab1211546ae4e24916ca8b95ea2927') in 0.059203 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.509282 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/上一頁.png
+  artifactKey: Guid(24c9007e0338c2e44944e2d048b788a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/上一頁.png using Guid(24c9007e0338c2e44944e2d048b788a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8422750944f51c3fb84ea9227e7497d') in 0.025797 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/排行榜-1.png
+  artifactKey: Guid(cf202d767f5d21a468ab203f7d888f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/排行榜-1.png using Guid(cf202d767f5d21a468ab203f7d888f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42e9893e36bcbacb1e143b9d3f1ca09') in 0.038032 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/排行榜.png
+  artifactKey: Guid(89b3bc4599e23b148b463a0a41920b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/排行榜.png using Guid(89b3bc4599e23b148b463a0a41920b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0168e44e8d7e4a8aa4af014b9080aea') in 0.038288 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/個人檔案.png
+  artifactKey: Guid(06630474b801d274baa3b08816ee36a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/個人檔案.png using Guid(06630474b801d274baa3b08816ee36a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16a3023970a43927b2f35ff248d477d') in 0.037811 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/地圖.png
+  artifactKey: Guid(4c78979642b0b4846aca8b2442f2efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/地圖.png using Guid(4c78979642b0b4846aca8b2442f2efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4defe6621dc2bb0a813ca5e57d522d') in 0.031118 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/相機.png
+  artifactKey: Guid(45f4382b1c8e5ca449f05c4d5ad684b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/相機.png using Guid(45f4382b1c8e5ca449f05c4d5ad684b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17461f7dfd3aa90edbe43525fc97907') in 0.031376 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/社群.png
+  artifactKey: Guid(e09817211e4ea5a408758f1829d892d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/社群.png using Guid(e09817211e4ea5a408758f1829d892d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9b92221cf36fdeffee78905402af32') in 0.034801 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/YILING/UI/3_0Leaderboard/步數排行榜.png
+  artifactKey: Guid(0df6420833b916d49a33a0eccc45c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YILING/UI/3_0Leaderboard/步數排行榜.png using Guid(0df6420833b916d49a33a0eccc45c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92700c15cc1344ea57e2277d4caff74') in 0.136869 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
