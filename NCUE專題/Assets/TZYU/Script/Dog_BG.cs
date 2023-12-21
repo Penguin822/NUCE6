@@ -6,8 +6,10 @@ public class Dog_BG : MonoBehaviour
     //canvas
     public GameObject bgCanvas;
     public GameObject bg;
-    public Sprite bgPass;
+
+    public Sprite bgPast;
     public Sprite bgFuture;
+
 
     public void ClickBackAR()
     {
@@ -15,10 +17,13 @@ public class Dog_BG : MonoBehaviour
     }
     public void ClickPass()
     {
-        bg.GetComponent<Image>().sprite = bgPass;
+        bgCanvas.SetActive(true);
+        bg.GetComponent<Image>().sprite = bgPast;
     }
+
     public void ClickFuture()
     {
+        bgCanvas.SetActive(true);
         bg.GetComponent<Image>().sprite = bgFuture;
     }
 }

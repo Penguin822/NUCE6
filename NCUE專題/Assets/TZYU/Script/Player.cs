@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
         {
             coll = true;
             Debug.Log("Ä²µo¸I¼²½d³ò");
+            //audioSource.volume = 1.0f;
             buttonToActivate.SetActive(true);
             run.SetBool("IsMoving", false);
             AudioSource.PlayClipAtPoint(collisionSound, transform.position);

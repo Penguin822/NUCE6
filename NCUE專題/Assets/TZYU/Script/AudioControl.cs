@@ -1,4 +1,5 @@
 using UnityEngine;
+
 public class AudioControl : MonoBehaviour
 {
     public AudioClip soundEffect;

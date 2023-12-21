@@ -10,28 +10,28 @@ public class Info : MonoBehaviour
 
     private void Start()
     {
+    //Time.timeScale = 0;
         if (PlayerPrefs.HasKey("DoNotShowAgain"))
         {
             panelIntro.SetActive(false);
             toggleDoNotShowAgain.isOn = true;
         }
     }
-
     public void ClickConfirm()
     {
-        //Time.timeScale = 1;       
+        Time.timeScale = 1;       
         panelIntro.SetActive(false);       
     }
 
     public void ClickBackHome()
     {
-        SceneManager.LoadScene("1_Home");
+        SceneManager.LoadScene("Dog_Win");
     }
 
     public void ClickIntro()
     {
         panelIntro.SetActive(true);
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
     }
 
     public void ClickDoNotShowAgain()

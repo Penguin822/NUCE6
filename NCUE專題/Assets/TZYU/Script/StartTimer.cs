@@ -12,6 +12,7 @@ public class StartTimer : MonoBehaviour
     {
         StartCoroutine(CountdownToStart());
         
+
     }
 
     IEnumerator CountdownToStart()
