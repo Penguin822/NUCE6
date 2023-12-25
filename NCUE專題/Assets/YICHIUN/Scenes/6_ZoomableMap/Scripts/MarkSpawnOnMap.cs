@@ -6,6 +6,7 @@ using Mapbox.Unity.Utilities;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using System.Text.RegularExpressions;
+using UnityEngine.UIElements;
 
 
 public class MarkSpawnOnMap : MonoBehaviour
@@ -37,6 +38,9 @@ public class MarkSpawnOnMap : MonoBehaviour
     public GameObject Marker;
     Dictionary<string, MarkInfo> _markInfoDictionary;
 
+    [Header("Image")]
+    public GameObject Infoimage;
+
     void Start()
     {
         _locations = new Vector2d[_locationStrings.Length];
@@ -51,11 +55,11 @@ public class MarkSpawnOnMap : MonoBehaviour
             // 创建 MarkInfo 并存储到字典中
             var markInfo = new MarkInfo();
 
-            if(i < _markerInfo.Length)
+            if (i < _markerInfo.Length)
             {
                 string[] infoParts = _markerInfo[i].Split(',');
 
-                if(infoParts.Length >= 2)
+                if (infoParts.Length >= 2)
                 {
                     markInfo.title = infoParts[0];
                     markInfo.description = infoParts[1];
@@ -72,7 +76,7 @@ public class MarkSpawnOnMap : MonoBehaviour
             _spawnedObjects.Add(instance);
         }
 
-        if(infoPanel != null)
+        if (infoPanel != null)
         {
             infoPanel.SetActive(false);
         }
@@ -98,8 +102,8 @@ public class MarkSpawnOnMap : MonoBehaviour
             if (hit.collider != null && hit.collider.CompareTag("MapMarker"))
             {
                 GameObject hitObject = hit.collider.gameObject;
-                hitObject.transform.localScale = new Vector3(_spawnScale * 1.2f, _spawnScale * 1.2f, _spawnScale * 1.2f);
-                
+                hitObject.transform.localScale = new Vector3(_spawnScale * 1.5f, _spawnScale * 1.5f, _spawnScale * 1.5f);
+
                 if (infoPanel != null)
                 {
                     //獲取被點擊物件
@@ -122,6 +126,11 @@ public class MarkSpawnOnMap : MonoBehaviour
                                 description.text = infoParts[1];
 
                                 infoPanel.SetActive(true);
+
+                                // 在这里根据 markerNumber 设置 InfoImage 子对象的可见性
+                                SetInfoImageVisibility(markerNumber);
+
+
                             }
                         }
                     }
@@ -133,14 +142,38 @@ public class MarkSpawnOnMap : MonoBehaviour
                 if (infoPanel != null)
                 {
                     infoPanel.SetActive(false);
-                }
 
-                // 還原 mark 的 scale
-                foreach (var spawnedObject in _spawnedObjects)
-                {
-                    spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+                    // 還原 mark 的 scale
+                    foreach (var spawnedObject in _spawnedObjects)
+                    {
+                        spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+                    }
                 }
             }
         }
     }
+    private void SetInfoImageVisibility(int markerNumber)
+    {
+
+        Transform infoImage = Infoimage.transform;
+
+        for (int i = 0; i < infoImage.childCount; i++)
+        {
+            string childName = infoImage.GetChild(i).name;
+            // 使用正则表达式提取名字中的数字部分
+            Match match = Regex.Match(childName, @"\d+");
+            if (match.Success)
+            {
+                int childNumber = int.Parse(match.Value);
+                // 如果子对象的数字与 markerNumber 匹配，设置可见
+                infoImage.GetChild(i).gameObject.SetActive(childNumber == markerNumber);
+            }
+        }
+    }
+
+    public void OnButtnCloseInfoClick()
+    {
+        infoPanel.SetActive(false);
+    }
 }
+
