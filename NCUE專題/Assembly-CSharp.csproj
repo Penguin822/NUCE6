@@ -541,6 +541,7 @@
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\SourceLayers\SubLayerCustomStyleAtlas.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Directions\Overview.cs" />
     <Compile Include="Assets\YUYING\script\cat model\cat_animator.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\SwitchAttractionNameAndImage.cs" />
     <Compile Include="Assets\TZYU\TextMesh Pro2\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\Map\Interfaces\IMapPlacementStrategy.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\SourceLayers\VectorLayer.cs" />
@@ -661,7 +662,6 @@
     <Compile Include="Assets\YUYING\script\cat game\SwitchGameBg.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\MeshGeneration\Factories\ImageDataFetcher.cs" />
-    <Compile Include="Assets\YUYING\script\cat game\SwitchAttractionNameAndImage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TZYU2\ARLocation\Samples\Data\pois.xml" />
