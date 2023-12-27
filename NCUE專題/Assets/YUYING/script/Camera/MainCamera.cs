@@ -39,6 +39,20 @@ public class MainCamera : MonoBehaviour
         }
     }*/
 
+    public GameObject petPanel;
+    private bool isPetPanelActive;
+
+    private void Start()
+    {
+        isPetPanelActive = false;
+        petPanel.SetActive(false);
+    }
+    public void ClickPetPanelButton()
+    {
+        isPetPanelActive = !isPetPanelActive;
+        petPanel.SetActive(isPetPanelActive);
+    }
+
     public void OnScreenShootClick()
     {
         FlagInScreen[] allFlags = FindObjectsOfType<FlagInScreen>(); // 獲取場景中所有 FlagInScreen 腳本的物體

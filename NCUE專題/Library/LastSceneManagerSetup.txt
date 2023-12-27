@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/YICHIUN/Scenes/6_ZoomableMap/ZoomableMap.unity
+- path: Assets/YUYING/scene/ChoosePetGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

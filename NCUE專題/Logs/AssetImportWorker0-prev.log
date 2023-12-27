@@ -15,7 +15,7 @@ C:/Users/1/Desktop/ncue project/NUCE6/NCUE專題
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52989
+53780
 Successfully changed project path to: C:/Users/1/Desktop/ncue project/NUCE6/NCUE專題
 C:/Users/1/Desktop/ncue project/NUCE6/NCUE專題
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/1/Desktop/ncue project/NUCE6/NCUE專題
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19420] Host "[IP] 10.221.2.184 [Port] 0 [Flags] 2 [Guid] 494110994 [EditorId] 494110994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG9BJDL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21688] Host "[IP] 10.221.2.184 [Port] 0 [Flags] 2 [Guid] 2607062716 [EditorId] 2607062716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG9BJDL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19420] Host "[IP] 10.221.2.184 [Port] 0 [Flags] 2 [Guid] 494110994 [EditorId] 494110994 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG9BJDL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21688] Host "[IP] 10.221.2.184 [Port] 0 [Flags] 2 [Guid] 2607062716 [EditorId] 2607062716 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QG9BJDL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 201.34 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 200.99 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -68,95 +68,148 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009390 seconds.
+Registered in 0.010159 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 406 ms
-Refreshing native plugins compatible for Editor in 68.74 ms, found 17 plugins.
+Android Extension - Scanning For ADB Devices 456 ms
+Refreshing native plugins compatible for Editor in 88.06 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
+- Completed reload, in  1.626 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1464ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (1627ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1074ms)
-			LoadAssemblies (240ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (159ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (811ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (915ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (544ms)
+				InitializePlatformSupportModulesInManaged (614ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.096125 seconds.
+Registered in 0.098775 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\1\Desktop\ncue project\NUCE6\NCUE專題\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <5a2dc334139a4a0db5b2b0ab782b6a82>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <5a2dc334139a4a0db5b2b0ab782b6a82>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1041)
+Google.IOSResolver:.cctor () (at /Users/chkuang/Workspace/git/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:727)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/chkuang/Workspace/git/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.180 seconds
+- Completed reload, in  1.996 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2181ms)
-		BeginReloadAssembly (247ms)
+	ReloadAssembly (1998ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1725ms)
-			LoadAssemblies (292ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1573ms)
+			LoadAssemblies (217ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (326ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (1074ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (950ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (64ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (799ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (764ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.31 ms, found 17 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3030 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 151 unused Assets / (60.9 KB). Loaded Objects now: 3419.
-Memory consumption went from 209.0 MB to 208.9 MB.
-Total: 6.761800 ms (FindLiveObjects: 0.822500 ms CreateObjectMapping: 0.204800 ms MarkObjects: 5.540500 ms  DeleteObjects: 0.191900 ms)
+Unloading 151 unused Assets / (61.0 KB). Loaded Objects now: 3419.
+Memory consumption went from 209.2 MB to 209.2 MB.
+Total: 6.163400 ms (FindLiveObjects: 0.599600 ms CreateObjectMapping: 0.221700 ms MarkObjects: 5.181800 ms  DeleteObjects: 0.158800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51514.686015 seconds.
+  path: Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts/InfoImage.cs
+  artifactKey: Guid(16fde6693ca5d924b949d65770969cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts/InfoImage.cs using Guid(16fde6693ca5d924b949d65770969cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca7f9b261fc077e96626aa7312b5cf3') in 0.095726 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 102.02 ms, found 17 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 144 unused Assets / (61.6 KB). Loaded Objects now: 3419.
+Memory consumption went from 148.1 MB to 148.0 MB.
+Total: 5.745100 ms (FindLiveObjects: 0.699600 ms CreateObjectMapping: 0.168200 ms MarkObjects: 4.691600 ms  DeleteObjects: 0.184700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,51 +224,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48832.213260 seconds.
-  path: Assets/TZYU2/test2.asset
-  artifactKey: Guid(e3b36e03c37c9f64a975312a7fbcd419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TZYU2/test2.asset using Guid(e3b36e03c37c9f64a975312a7fbcd419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88e4fd625ef5c68258f5cac113983e0') in 0.088141 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.901280 seconds.
-  path: Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts
-  artifactKey: Guid(836b25bbb1ee14be1bf16d1922ef7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts using Guid(836b25bbb1ee14be1bf16d1922ef7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb6c1f3dc277eaa50f79b65a853033c') in 0.017111 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.585693 seconds.
-  path: Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts/FixedScript
-  artifactKey: Guid(dc1c1b9d8a588c04eb89b38b86cdd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts/FixedScript using Guid(dc1c1b9d8a588c04eb89b38b86cdd972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82eca3e0c91e709098914f7acf71bdf') in 0.017666 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 113.952317 seconds.
-  path: Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts
-  artifactKey: Guid(836b25bbb1ee14be1bf16d1922ef7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 5
-Start importing Assets/YICHIUN/Scenes/6_ZoomableMap/Scripts using Guid(836b25bbb1ee14be1bf16d1922ef7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cff8fcf2ba0280c84b13fb1b2461bc2') in 0.013310 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 50.731330 seconds.
-  path: Assets/YICHIUN/Script/ARController.cs
-  artifactKey: Guid(b890ae24f9d28d04abdf5a24b4fb2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/YICHIUN/Script/ARController.cs using Guid(b890ae24f9d28d04abdf5a24b4fb2f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077a44d2cdaa96ff2dfcf84d8f9ea94c') in 0.111132 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.727240 seconds.
-  path: Assets/YICHIUN/Script/BirdController.cs
-  artifactKey: Guid(3128297abae9a9d418af35601ff7c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/YICHIUN/Script/BirdController.cs using Guid(3128297abae9a9d418af35601ff7c4b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518d850f48c1086a7a55852173e9f918') in 0.016011 seconds 
-Number of asset objects unloaded after import = 0
