@@ -7,7 +7,7 @@ public class Manager : MonoBehaviour
 {
     public void ChangeScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName); // 使用 SceneManager.LoadScene 加载场景
+        SceneManager.LoadScene(sceneName);
     }
 
     public void GoBack()
