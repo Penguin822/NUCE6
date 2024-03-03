@@ -17,7 +17,6 @@ public class cat_info : MonoBehaviour
         }
     }
 
-
     public void ClickConfirm()
     {
         Time.timeScale = 1;       
@@ -48,6 +47,5 @@ public class cat_info : MonoBehaviour
         {
             PlayerPrefs.DeleteKey("DoNotShowAgain");
         }
-
     }
 }

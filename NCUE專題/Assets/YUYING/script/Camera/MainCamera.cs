@@ -8,6 +8,7 @@ using System;
 using UnityEngine.SceneManagement;
 using UnityEngine.Animations;
 using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
+using ARLocation;
 
 public class MainCamera : MonoBehaviour
 {
@@ -64,17 +65,18 @@ public class MainCamera : MonoBehaviour
             if (flag.inScreen)
             {
                 anyFlagInScreen = true;
-                lastVisibleFlagID = flag.FlagID; // 更新最后一?可見旗子的 FlagID
+                lastVisibleFlagID = flag.FlagID; // 更新最後一個可見旗子的 FlagID
             }
         }
 
-        if (!anyFlagInScreen) // 如果?有旗子在屏幕上
+        if (!anyFlagInScreen) // 如果有旗子在屏幕上
         {
             ScreenShoot(ARCam);
         }
         else // 如果有旗子在屏幕上
         {
             SceneManager.LoadScene("ChoosePetGame");
+            Destroy(GameObject.FindObjectOfType<PlaceAtLocation>().gameObject);
         }
     }
 

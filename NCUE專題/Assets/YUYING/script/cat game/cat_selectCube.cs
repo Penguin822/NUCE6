@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+using ARLocation;
 
 public class cat_selectCube : MonoBehaviour
 {
@@ -159,7 +160,8 @@ public class cat_selectCube : MonoBehaviour
     private IEnumerator NextSceneAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene("cat_gameLAR");
+        SceneManager.LoadScene("cat_gameLAR_HalfVer");
+        //SceneManager.LoadScene("cat_gameLAR_LocationVer");
     }
 
     //©µ¿ð§R°£cat_box script

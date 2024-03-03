@@ -46,7 +46,7 @@ public class HomeSwitchPet_MoveVer : MonoBehaviour
             index--;
             if(index < 0)
             {
-                index = 0;
+                index = 2; //原為0
             }
             pets[index].SetActive(true);
             right = false;
@@ -57,7 +57,7 @@ public class HomeSwitchPet_MoveVer : MonoBehaviour
             index++;
             if(index > 2)
             {
-                index = 2;
+                index = 0; //原為2
             }
             pets[index].SetActive(true);
             left = false;

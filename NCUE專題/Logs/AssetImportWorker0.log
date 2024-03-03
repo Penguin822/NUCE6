@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 12170 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 16221 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\Unity 2021.3.30f1\Editor\Unity.exe
+D:\Program\Unity\2021.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/stepbystep/NUCE6/NCUE專題
+D:/UniversityLesson/112_1/SeniorProject/AllProject2/NUCE6/NCUE專題
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57171
-Successfully changed project path to: D:/stepbystep/NUCE6/NCUE專題
-D:/stepbystep/NUCE6/NCUE專題
+63427
+Successfully changed project path to: D:/UniversityLesson/112_1/SeniorProject/AllProject2/NUCE6/NCUE專題
+D:/UniversityLesson/112_1/SeniorProject/AllProject2/NUCE6/NCUE專題
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,77 +47,83 @@ D:/stepbystep/NUCE6/NCUE專題
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24296] Host "[IP] 192.168.255.34 [Port] 0 [Flags] 2 [Guid] 2991950423 [EditorId] 2991950423 [Version] 1048832 [Id] WindowsEditor(7,tsenghome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15000] Host "[IP] 10.96.2.2 [Port] 0 [Flags] 2 [Guid] 922835168 [EditorId] 922835168 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24296] Host "[IP] 192.168.255.34 [Port] 0 [Flags] 2 [Guid] 2991950423 [EditorId] 2991950423 [Version] 1048832 [Id] WindowsEditor(7,tsenghome) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15000] Host "[IP] 10.96.2.2 [Port] 0 [Flags] 2 [Guid] 922835168 [EditorId] 922835168 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 131.26 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 187.99 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/stepbystep/NUCE6/NCUE專題/Assets
+[Subsystems] Discovering subsystems at path D:/Program/Unity/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UniversityLesson/112_1/SeniorProject/AllProject2/NUCE6/NCUE專題/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f96)
     Vendor:   NVIDIA
-    VRAM:     1983 MB
-    Driver:   30.0.15.1169
+    VRAM:     3964 MB
+    Driver:   26.21.14.3190
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Mono path[0] = 'D:/Program/Unity/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013440 seconds.
+Register platform support module: D:/Program/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Program/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003721 seconds.
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 73.43 ms, found 17 plugins.
+Android Extension - Scanning For ADB Devices 5689 ms
+Refreshing native plugins compatible for Editor in 81.37 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
+- Completed reload, in  6.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (906ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (6630ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (6339ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (6083ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (104ms)
+				InitializePlatformSupportModulesInManaged (5823ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.047913 seconds.
+Registered in 0.019945 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 17 plugins.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\stepbystep\NUCE6\NCUE專題\ProjectSettings\GvhProjectSettings.xml
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\UniversityLesson\112_1\SeniorProject\AllProject2\NUCE6\NCUE專題\ProjectSettings\GvhProjectSettings.xml
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9d9536d9127f4a489d989c7a566aee1c>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <9d9536d9127f4a489d989c7a566aee1c>:0 
@@ -144,59 +150,117 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.148 seconds
+- Completed reload, in  2.120 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2149ms)
+	ReloadAssembly (2121ms)
 		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1796ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1790ms)
+			LoadAssemblies (206ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
+			SetupTypeCache (322ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1186ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1152ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (1026ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (977ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 17 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 17 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3191 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 311 unused Assets / (68.7 KB). Loaded Objects now: 3420.
-Memory consumption went from 213.6 MB to 213.6 MB.
-Total: 3.459100 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.192400 ms MarkObjects: 2.806300 ms  DeleteObjects: 0.177800 ms)
+Unloading 3195 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 311 unused Assets / (69.9 KB). Loaded Objects now: 3424.
+Memory consumption went from 213.8 MB to 213.7 MB.
+Total: 4.587400 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.252400 ms MarkObjects: 3.794500 ms  DeleteObjects: 0.223400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1052263.787522 seconds.
-  path: Assets/YILING/Step/StepCounterService.cs
-  artifactKey: Guid(1a3ae3bfc1436a94485b094ee1ba47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 963742.162917 seconds.
+  path: Assets/YUYING/scene/CameraToPlayGame.unity
+  artifactKey: Guid(9a7775c63f16dfe4f85544ff49abb49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/YILING/Step/StepCounterService.cs using Guid(1a3ae3bfc1436a94485b094ee1ba47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298d79c4ffd89beee9286e88afd8005') in 0.044114 seconds 
+Start importing Assets/YUYING/scene/CameraToPlayGame.unity using Guid(9a7775c63f16dfe4f85544ff49abb49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c216f65cec2375c4a3a6326650b4eea') in 0.024877 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.850853 seconds.
+  path: Assets/YUYING/scene/cat_game_intro 1.unity
+  artifactKey: Guid(8afe221df2c50a64e81743d582552e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_game_intro 1.unity using Guid(8afe221df2c50a64e81743d582552e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eb09e1eba034bfe33914c06743331a') in 0.015046 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.580669 seconds.
+  path: Assets/YUYING/scene/cat_game_intro.unity
+  artifactKey: Guid(967ca9126242fd3418a0eb2fce16a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_game_intro.unity using Guid(967ca9126242fd3418a0eb2fce16a5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d571b33fdfddf72ba32ba61b1ae2f65') in 0.013923 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.732938 seconds.
+  path: Assets/YUYING/scene/cat_gameLAR 1.unity
+  artifactKey: Guid(d99da93806ec16343a6660a862fa7e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_gameLAR 1.unity using Guid(d99da93806ec16343a6660a862fa7e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74a24d3669e04556a55b91c768848b5') in 0.019884 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.162857 seconds.
+  path: Assets/YUYING/scene/cat_gameLAR.unity
+  artifactKey: Guid(3f5fc852334e6c14baa8aa6028e98d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_gameLAR.unity using Guid(3f5fc852334e6c14baa8aa6028e98d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce065dafd2bd7353792a11fc0b3b23') in 0.013716 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.485871 seconds.
+  path: Assets/YUYING/scene/cat_gameLAR_HalfVer.unity
+  artifactKey: Guid(585d5ef7d970a7245b5cc47c9d485b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_gameLAR_HalfVer.unity using Guid(585d5ef7d970a7245b5cc47c9d485b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d4efff15ee986399485b1d2c3f47a3') in 0.015051 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.034588 seconds.
+  path: Assets/YUYING/scene/cat_score.unity
+  artifactKey: Guid(94312b27b4ac3774b9c0590cd6d949bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/cat_score.unity using Guid(94312b27b4ac3774b9c0590cd6d949bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37a3b10796327e72342e5473e2105ba') in 0.015253 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.759048 seconds.
+  path: Assets/YUYING/scene/ChoosePetGame.unity
+  artifactKey: Guid(3ad9884c93d4ffd4181f905fcedc9028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/YUYING/scene/ChoosePetGame.unity using Guid(3ad9884c93d4ffd4181f905fcedc9028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486d9f3ff82dfe132952af7417c6793a') in 0.012857 seconds 
 Number of asset objects unloaded after import = 0

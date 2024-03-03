@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3ef57f122164deba0f4502244ca1ae, type: 3}
+  m_Name: route_dorm
+  m_EditorClassIdentifier: 
+  Name: "\u5BBF\u820D\u6E2C\u8A66"
+  Points:
+  - Location:
+      Latitude: 24.066493246676714
+      Longitude: 120.55770888519919
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: "\u8D77\u9EDE"
+    Instruction: "\u5F9E\u9019\u88E1\u958B\u59CB!!"
+  - Location:
+      Latitude: 24.0665953778152
+      Longitude: 120.557617118505
+      Altitude: 0
+      AltitudeMode: 0
+      Label: 
+    IsStep: 1
+    Name: "\u7D42\u9EDE"
+    Instruction: "\u7D42\u9EDE!! \u8ACB\u6253\u958B\u7BB1\u5B50"
+  SceneViewScale: 1

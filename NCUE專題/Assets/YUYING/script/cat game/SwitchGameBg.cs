@@ -14,6 +14,8 @@ public class SwitchGameBg : MonoBehaviour
 
     private int inScreenFlagID;
 
+    public GameObject ARFloor;
+
     private void Awake()
     {
         //inScreenFlagID = PlayerPrefs.GetInt("inScreenFlagID");
@@ -25,12 +27,14 @@ public class SwitchGameBg : MonoBehaviour
     public void ClickBackAR()
     {
         bgCanvas.SetActive(false);
+        ARFloor.SetActive(true);
     }
     public void ClickPass()
     {
         Debug.Log("pass = " + inScreenFlagID);
         bgCanvas.SetActive(true);
         bg.GetComponent<Image>().sprite = bgPast[inScreenFlagID];
+        ARFloor.SetActive(false);
     }
 
     public void ClickFuture()
@@ -38,5 +42,6 @@ public class SwitchGameBg : MonoBehaviour
         Debug.Log("future = "+inScreenFlagID);
         bgCanvas.SetActive(true);
         bg.GetComponent<Image>().sprite = bgFuture[inScreenFlagID];
+        ARFloor.SetActive(false);
     }
 }

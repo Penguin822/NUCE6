@@ -340,7 +340,6 @@
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Utils\SelectScene.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Platform\SQLite\SQLite.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\SourceLayers\ISubLayerRealisticStyle.cs" />
-    <Compile Include="Assets\YUYING\script\cat game\cat_box.cs" />
     <Compile Include="Assets\RUFEN\Scripts\UserHandler.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Utils\IObservable.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\Map\TileProviders\AbstractTileProvider.cs" />
@@ -419,7 +418,6 @@
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Components\MoveAlongPath.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Examples\1_DataExplorer\Scripts\TextMeshOutline.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Tokens\MapboxTokenApi.cs" />
-    <Compile Include="Assets\pedometer.cs" />
     <Compile Include="Assets\RUFEN\Script\FacebookScript.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Directions\Response\Waypoint.cs" />
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Utils\ShowHideSelfOnPointerClick.cs" />
@@ -437,6 +435,7 @@
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Platform\TileJSON\TileJSONObjectVectorLayer.cs" />
     <Compile Include="Assets\TZYU\TextMesh Pro2\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Core\mapbox-sdk-cs\Map\ClassicRasterTile.cs" />
+    <Compile Include="Assets\btmanger.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\MeshGeneration\Enums\TilePropertyState.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\Map\Interfaces\IMap.cs" />
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Location\UnityLocationProvider.cs" />
@@ -526,8 +525,8 @@
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\Telemetry\TelemetryFallback.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Components\ARLocationProvider.cs" />
+    <Compile Include="Assets\YILING\Step\StepCounterService.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\Telemetry\TelemetryWebgl.cs" />
-    <Compile Include="Assets\acc.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\MeshGeneration\Modifiers\MeshGenerationBase.cs" />
     <Compile Include="Assets\ARPlanePrefab\Scripts\AnchorCreator.cs" />
     <Compile Include="Assets\TZYU2\ARLocation\Scripts\Math\LowPassFilter.cs" />
@@ -662,6 +661,11 @@
     <Compile Include="Assets\YUYING\script\cat game\SwitchGameBg.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppEvents.cs" />
     <Compile Include="Assets\YICHIUN\Mapbox\Unity\MeshGeneration\Factories\ImageDataFetcher.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\ChangeGuideFont.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\SwitchBoxLocation.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\AutoPlaceItemForGame_CatGameIntro.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\cat_box.cs" />
+    <Compile Include="Assets\YUYING\script\cat game\cat_WalkToBox_LocationVer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TZYU2\ARLocation\Samples\Data\pois.xml" />
@@ -1020,26 +1024,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Program\Unity\2021.3.30f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="MapboxAccountsUnity">
-      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.App">
-      <HintPath>Assets\YILING\Firebase\Plugins\Firebase.App.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.Json">
-      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
-    </Reference>
     <Reference Include="XInputDotNetPure">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
       <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.VectorTileReader.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.IO.Compression">
-      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Database">
-      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
@@ -1047,23 +1036,14 @@
     <Reference Include="Firebase.TaskExtension">
       <HintPath>Assets\YILING\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Android">
-      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
-    </Reference>
     <Reference Include="LibFBGManaged">
       <HintPath>Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Windows">
-      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
-    </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
       <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -1073,9 +1053,6 @@
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
@@ -1089,6 +1066,33 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="MapboxAccountsUnity">
+      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\MapboxAccounts\net35\MapboxAccountsUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Assets\YILING\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.Json">
+      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\ThirdParty\Mapbox.Json\Net35\Mapbox.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.IO.Compression">
+      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\ThirdParty\Mapbox.IO.Compression\net35\Mapbox.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Android">
+      <HintPath>Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Windows">
+      <HintPath>Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Mapbox.VectorTile.PbfReader">
+      <HintPath>Assets\YICHIUN\Mapbox\Core\Plugins\Mapbox\vector-tile-cs\net46\Mapbox.VectorTile.PbfReader.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>Assets\YILING\Firebase\Plugins\Firebase.Platform.dll</HintPath>
     </Reference>
@@ -1100,6 +1104,12 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\YILING\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:\Program\Unity\2021.3.30f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:\Program\Unity\2021.3.30f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\Program\Unity\2021.3.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
